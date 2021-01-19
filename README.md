@@ -32,4 +32,4 @@ class App extends React.Component {
 export default App;
 ```
 
-Codesandbox.io : https://codesandbox.io/s/quizzical-mountain-39lhm?fontsize=14&hidenavigation=1&theme=dark
+Codesandbox.io : https://codesandbox.io/s/http-response-details-example-39lhm?file=/src/App.js
