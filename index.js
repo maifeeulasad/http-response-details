@@ -1,5 +1,4 @@
 module.exports = {
-
   "100" : "Continue\nThis interim response indicates that everything so far is OK and that the client should continue the request, or ignore the response if the request is already finished.",
   "101" : "Switching Protocol\nThis code is sent in response to an Upgrade request header from the client, and indicates the protocol the server is switching to.",
   "102" : "Processing (WebDAV)\nThis code indicates that the server has received and is processing the request, but no response is available yet.",
@@ -67,5 +66,4 @@ module.exports = {
   "508" : "Loop Detected (WebDAV)\nThe server detected an infinite loop while processing the request.",
   "510" : "Not Extended\nFurther extensions to the request are required for the server to fulfil it.",
   "511" : "Network Authentication Required\nThe 511 status code indicates that the client needs to authenticate to gain network access."
-
 }
