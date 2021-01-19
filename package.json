@@ -1,0 +1,29 @@
+{
+  "name": "http-response-details",
+  "version": "1.0.0",
+  "description": "List all http responses in your project, don't make error messages so static.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maifeeulasad/http-response-details.git"
+  },
+  "keywords": [
+    "http",
+    "response",
+    "code",
+    "https",
+    "error",
+    "message",
+    "mua",
+    "maifee"
+  ],
+  "author": "Maifee Ul Asad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maifeeulasad/http-response-details/issues"
+  },
+  "homepage": "https://github.com/maifeeulasad/http-response-details#readme"
+}
