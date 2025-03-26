@@ -1,16 +1,15 @@
-# http-response-details
+# 📡 http-response-details
 
-Example (pure Node.js) :
-```
-
+## Example (pure Node.js) 🚀:
+```javascript
 const httpCodes = require("http-response-details");
 
-console.log(httpCodes["400"]);
-console.log(httpCodes["201"]);
+console.log(httpCodes["400"]); // 🚫 Bad Request
+console.log(httpCodes["201"]); // ✅ Created
 ```
 
-Example (react.js) : 
-```
+## Example (React.js) ⚛️:
+```javascript
 import React from "react";
 const httpCodes = require("http-response-details");
 
@@ -19,8 +18,8 @@ class App extends React.Component {
     super(props);
     //console.log("test");
     //console.log(httpCodes);
-    console.log(httpCodes["400"]);
-    console.log(httpCodes["201"]);
+    console.log(httpCodes["400"]); // 🚫 Bad Request
+    console.log(httpCodes["201"]); // ✅ Created
     //or inside other life-cycle method or anywhere
   }
 
@@ -32,4 +31,5 @@ class App extends React.Component {
 export default App;
 ```
 
-Codesandbox.io : https://codesandbox.io/s/http-response-details-example-39lhm?file=/src/App.js
+## Try it on CodeSandbox.io 🧪:
+[https://codesandbox.io/s/http-response-details-example-39lhm?file=/src/App.js](https://codesandbox.io/s/http-response-details-example-39lhm?file=/src/App.js)
