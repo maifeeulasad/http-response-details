@@ -1,6 +1,6 @@
 {
   "name": "http-response-details",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List all http responses in your project, don't make error messages so static.",
   "main": "index.js",
   "scripts": {
