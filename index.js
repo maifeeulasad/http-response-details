@@ -1,3 +1,17 @@
+/**
+ * An object containing HTTP status codes as keys and their corresponding
+ * descriptions as values. Each description provides details about the
+ * meaning and usage of the HTTP status code.
+ *
+ * Example:
+ * {
+ *   "200": "OK\nThe request has succeeded. The meaning of the success depends on the HTTP method...",
+ *   "404": "Not Found\nThe server can not find the requested resource...",
+ *   ...
+ * }
+ *
+ * @type {Object.<string, string>}
+ */
 const data = {
   "100" : "Continue\nThis interim response indicates that everything so far is OK and that the client should continue the request, or ignore the response if the request is already finished.",
   "101" : "Switching Protocol\nThis code is sent in response to an Upgrade request header from the client, and indicates the protocol the server is switching to.",
@@ -68,6 +82,12 @@ const data = {
   "511" : "Network Authentication Required\nThe 511 status code indicates that the client needs to authenticate to gain network access."
 }
 
+/**
+ * Retrieves the HTTP response details for a given status code.
+ *
+ * @param {number|string} code - The HTTP status code to look up.
+ * @returns {any} The details associated with the provided status code.
+ */
 const getStatusCode = (code) => {
   return data[code];
 }
