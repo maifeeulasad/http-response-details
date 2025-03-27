@@ -4,7 +4,8 @@
   "description": "List all http responses in your project, don't make error messages so static.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npx tsc --declaration --allowJs --checkJs --emitDeclarationOnly index.js"
   },
   "repository": {
     "type": "git",
