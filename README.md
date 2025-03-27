@@ -1,4 +1,7 @@
-# 📡 http-response-details
+# 📡 http-response-details [![NPM Downloads][downloads-image]][downloads-url]
+
+[downloads-image]: https://img.shields.io/npm/dm/http-response-details.svg
+[downloads-url]: https://npmcharts.com/compare/http-response-details?minimal=true
 
 ## Example (pure Node.js) 🚀:
 ```javascript
