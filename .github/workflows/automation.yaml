@@ -19,8 +19,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: ${{ matrix.registry-url }}
+      - name: 'Installing TypeScript globally'
+        run: npm i -g typescript
       - name: 'Installing deps'
-        run: npm i && npm i -g typescript
+        run: npm i
       - name: 'Publish'
         run: npm publish
         env:
